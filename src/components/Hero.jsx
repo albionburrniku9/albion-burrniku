@@ -39,7 +39,12 @@ const Hero = () => {
             <a href="#projects" className="px-8 py-3.5 bg-white text-blue-900 font-semibold rounded-xl transition-all duration-300 hover:bg-blue-50 hover:shadow-xl hover:-translate-y-1 active:scale-95 flex items-center gap-2 w-full sm:w-auto justify-center">
               View Work <ChevronRight size={18} />
             </a>
-            <a href="#contact" className="px-8 py-3.5 bg-blue-800/40 border border-blue-400/30 text-white font-semibold rounded-xl transition-all duration-300 hover:bg-blue-800/60 hover:border-blue-300/50 backdrop-blur-sm active:scale-95 flex items-center gap-2 w-full sm:w-auto justify-center">
+            <a
+              href="/Albion_Burrniku_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3.5 bg-blue-800/40 border border-blue-400/30 text-white font-semibold rounded-xl transition-all duration-300 hover:bg-blue-800/60 hover:border-blue-300/50 backdrop-blur-sm active:scale-95 flex items-center gap-2 w-full sm:w-auto justify-center"
+            >
               <Download size={18} /> Download CV
             </a>
           </div>
