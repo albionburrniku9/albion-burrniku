@@ -16,21 +16,13 @@ const Navbar = () => {
   return (
     <nav className="fixed w-full z-50 transition-all duration-300 bg-white/90 backdrop-blur-md shadow-sm border-b border-slate-100 py-3">
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16 flex justify-between items-center">
-        <div className="flex items-center justify-center transform hover:scale-105 transition-transform duration-300 cursor-pointer">
-          <svg width="44" height="44" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <linearGradient id="abGradient" x1="40" y1="40" x2="280" y2="280" gradientUnits="userSpaceOnUse">
-                <stop offset="0%" stopColor="#2563EB"/>
-                <stop offset="100%" stopColor="#0F172A"/>
-              </linearGradient>
-            </defs>
-            <rect x="20" y="20" width="280" height="280" rx="36" fill="url(#abGradient)"/>
-            <path d="M92 226L138 94H166L212 226H185L175 196H128L118 226H92ZM135 172H168L151.5 121L135 172Z" fill="white"/>
-            <path d="M198 94H228C258 94 276 109 276 132C276 147 268 158 254 164C270 169 280 181 280 198C280 223 260 238 226 238H198V94ZM226 151C240 151 248 145 248 135C248 124 240 118 226 118H224V151H226ZM229 214C244 214 252 207 252 195C252 183 243 176 227 176H224V214H229Z" fill="white"/>
-            <circle cx="250" cy="78" r="10" fill="#60A5FA" fillOpacity="0.9"/>
-            <circle cx="74" cy="248" r="8" fill="#93C5FD" fillOpacity="0.75"/>
-          </svg>
-        </div>
+        <div className="flex items-center justify-center cursor-pointer">
+  <a href="#home">
+    <span className="text-2xl md:text-3xl font-extrabold tracking-tight text-blue-700 select-none">
+      ALBION BURRNIKU
+    </span>
+  </a>
+</div>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8">
