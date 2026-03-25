@@ -21,7 +21,7 @@ const Contact = () => {
       <div className="relative z-10 max-w-2xl mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-extrabold text-brand-900 mb-4 tracking-tight">Get In Touch</h2>
         <p className="text-lg text-slate-600 mb-12 max-w-md mx-auto">
-          Currently open to QA Automation, SDET, and Data focused roles. Feel free to reach out to me!
+         Currently open to Automation Engineering, API Integrations, and AI-driven workflow roles. Feel free to reach out!
         </p>
 
         <div className="bg-white p-6 md:p-8 rounded-[2rem] shadow-premium flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 w-full transform hover:-translate-y-2 transition-transform duration-300">

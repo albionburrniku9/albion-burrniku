@@ -6,37 +6,38 @@ const Experience = () => {
       role: "Automation Quality Assurance & Quality Analyst",
       company: "Star Labs L.L.C, Pristina",
       duration: "April 2024 - Present",
-      description: "Own end-to-end test planning and execution for web-based platforms, ensuring full coverage across functional, performance, and security testing. Mentor junior QA engineers and provide guidance on automation.",
+      description: "Designed and validated end-to-end system workflows across frontend, backend, and integrated services, ensuring reliability of business-critical processes. Worked extensively with APIs, automation frameworks, and data validation to support scalable and efficient system behavior.",
       details: [
-        "Automated test scripts using Cypress & Playwright",
-        "Integrated test suites into GitLab CI/CD pipelines",
-        "API testing with Postman for functionality & security",
-        "Database testing using SQL for data integrity",
-        "Defect tracking and prioritization in JIRA"
+        "Built automation scripts using Cypress and Playwright to support reusable workflows and system validation",
+        "Worked with REST APIs to validate data flows and system integrations",
+        "Performed SQL-based validation to ensure data consistency across systems",
+        "Integrated automation into CI/CD pipelines to support continuous delivery",
+        "Identified issues in data flow, integrations, and business logic across services"
       ]
     },
     {
       role: "Testing Specialist",
       company: "Raiffeisen Bank Kosovo, Pristina",
       duration: "July 2023 - March 2024",
-      description: "Led performance, load, and stress testing initiatives using JMeter for enterprise banking systems. Executed functional, API, and UI testing for web and mobile applications in a regulated environment.",
+      description: "Analyzed system performance and data flows in enterprise banking systems, focusing on backend services, API integrations, and system reliability in a regulated environment.",
       details: [
-        "Security validation aligned with OWASP practices",
-        "Developed detailed test cases and execution reports",
-        "Test management via JIRA and Confluence",
-        "Actionable quality reporting to stakeholders"
+        "Performed performance and load testing using JMeter to identify system bottlenecks",
+        "Validated API behavior and backend data consistency across systems",
+        "Applied security validation aligned with OWASP principles",
+        "Collaborated with teams to improve system stability and performance"
       ]
     },
     {
       role: "Junior Quality Assurance Engineer",
       company: "Incodeks, Ferizaj",
       duration: "July 2022 - July 2023",
-      description: "Conducted functional, performance, and data-driven testing to support system enhancements. Participated in Scrum ceremonies, contributing to Agile delivery practices.",
+      description: "Built automation scripts and supported data-driven workflows, focusing on system behavior, API validation, and process reliability.",
       details: [
-        "Automated regression tests with Python & JavaScript",
-        "Improved testing efficiency by 75%",
-        "Supported defect triage and root-cause analysis",
-        "Continuous process improvement implementation"
+        "Built automation scripts using Python and JavaScript to support regression testing and system validation",
+        "Worked with APIs to validate data flows and system integrations",
+        "Performed SQL-based validation to ensure data consistency across systems",
+        "Integrated automation into CI/CD pipelines to support continuous delivery",
+        "Identified issues in data flow, integrations, and business logic across services"
       ]
     }
   ];
@@ -44,7 +45,7 @@ const Experience = () => {
   return (
     <section id="experience" className="section-padding bg-white relative">
       <div className="absolute left-0 top-1/2 w-96 h-96 bg-blue-50/50 rounded-full blur-3xl -translate-y-1/2 -z-10"></div>
-      
+
       <div className="max-w-4xl mx-auto">
         <h2 className="section-title mb-16 text-center">Experience Tracker</h2>
 
@@ -66,7 +67,7 @@ const Experience = () => {
                     {exp.duration}
                   </div>
                 </div>
-                
+
                 <p className="text-slate-600 mb-6 leading-relaxed">
                   {exp.description}
                 </p>

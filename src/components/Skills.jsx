@@ -4,24 +4,29 @@ import { ShieldCheck, Cpu, Database, Wrench } from 'lucide-react';
 const Skills = () => {
   const categories = [
     {
-      title: "QA & Testing",
+      title: "Automation & Workflows",
       icon: <ShieldCheck size={24} className="text-blue-500" />,
-      skills: ["Manual Testing", "Regression Testing", "Functional Testing", "Exploratory Testing"]
+      skills: ["Workflow Design", "API Integrations", "Webhooks", "Process Automation"]
     },
     {
-      title: "Automation",
+      title: "Automation Engineering",
       icon: <Cpu size={24} className="text-blue-500" />,
-      skills: ["Selenium", "Cypress", "Playwright", "Automation Strategy"]
+      skills: ["Cypress / Playwright", "JavaScript Automation", "Python Scripting", "CI/CD Pipelines"]
     },
     {
-      title: "Data & Validation",
+      title: "Data & Systems",
       icon: <Database size={24} className="text-blue-500" />,
-      skills: ["API Testing", "Postman", "SQL", "Data Integrity"]
+      skills: ["SQL & Data Validation", "Data Pipelines", "API Data Handling", "Data Integrity"]
     },
     {
       title: "Tools & Workflow",
       icon: <Wrench size={24} className="text-blue-500" />,
-      skills: ["Python", "JavaScript", "Git & CI/CD", "Jira & Agile"]
+      skills: ["Power Automate", "Git & CI/CD", "JIRA & Agile", "Postman"]
+    },
+    {
+      title: "Integrations",
+      icon: <Wrench size={24} className="text-blue-500" />,
+      skills: ["REST APIs", "Webhooks", "System Integration", "JSON / Data Mapping"]
     }
   ];
 

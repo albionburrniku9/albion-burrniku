@@ -8,16 +8,15 @@ const About = () => {
 
       <div className="max-w-4xl mx-auto flex flex-col items-center">
         <h2 className="section-title">About Me</h2>
-        
+
         <div className="bg-slate-50/80 backdrop-blur border border-slate-100/50 p-8 md:p-12 rounded-3xl shadow-sm text-center md:text-lg text-slate-600 leading-relaxed mb-12 relative overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-400 to-blue-600"></div>
 
           <p className="mb-6 font-medium text-slate-700">
-            I am a QA Engineer with a deep passion for automation, ensuring top-notch software quality, and driving reliable delivery.
+            I am an Automation & QA Engineer focused on building efficient workflows, system integrations, and data-driven processes. I specialize in working with APIs, automation frameworks, and data validation to design scalable and reliable solutions.
           </p>
           <p>
-            With over 3 years of hands-on experience, I specialize in comprehensive quality assurance across full-stack applications. From thorough manual testing and API verification to building robust automation frameworks using Selenium and Cypress, I tackle complex challenges head-on. My focus extends to SQL and data validation, ensuring that data integrity is maintained throughout the application lifecycle.
-          </p>
+            With over 3 years of hands-on experience, I work across full-stack systems, focusing on API integrations, automation workflows, and data consistency. My experience includes building automation using Cypress and Playwright, validating complex data flows with SQL, and ensuring seamless interaction between systems. I am actively expanding into automation platforms and AI-driven workflows. </p>
         </div>
 
         {/* Highlights grid to make it cleaner than plain text */}
@@ -25,22 +24,22 @@ const About = () => {
           {[
             {
               icon: <Search className="text-blue-500 mb-4" size={32} />,
-              title: "QA & Web Testing",
-              desc: "Deep expertise in exploratory, functional, and regression testing across modern web platforms."
+              title: "Automation Workflows",
+              desc: "Designing end-to-end automation processes using APIs, triggers, and system integrations.."
             },
             {
               icon: <Gauge className="text-blue-500 mb-4" size={32} />,
-              title: "Automation Focus",
-              desc: "Building scalable test scripts using Cypress, Playwright, and Selenium to accelerate delivery."
+              title: "API Integrations",
+              desc: "Connecting systems, validating data flows, and ensuring seamless communication between applications."
             },
             {
               icon: <Server className="text-blue-500 mb-4" size={32} />,
-              title: "API & Data Validation",
-              desc: "Verifying endpoints with Postman and ensuring data integrity through rigorous SQL checks."
+              title: "Data Validation & SQL",
+              desc: "Ensuring data integrity through rigorous SQL checks and validation across complex data flows."
             },
             {
               icon: <Target className="text-blue-500 mb-4" size={32} />,
-              title: "Quality Mindset",
+              title: "Quality Automation Engineer",
               desc: "Collaborating with cross-functional teams to integrate a quality-first approach into the SDLC."
             }
           ].map((item, index) => (

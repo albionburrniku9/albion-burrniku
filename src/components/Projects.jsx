@@ -21,14 +21,6 @@ const Projects = () => {
       link: "https://github.com/albionburrniku9/Heart_diesases"
     },
     {
-      title: "Oracle SQL Examples",
-      desc: "A comprehensive collection of PLSQL and Data Analysis queries used to solve complex relational database problems.",
-      tags: ["PLSQL", "Oracle", "Data Analysis"],
-      image: "/oracle_sql.png",
-      icon: <Database size={20} className="text-blue-600" />,
-      link: "https://github.com/albionburrniku9/Oracle_SQL_examples"
-    },
-    {
       title: "Wine Quality Predictor",
       desc: "A data science model that evaluates and predicts wine quality by analyzing various chemical parameters and datasets.",
       tags: ["Data Science", "Python", "Predictive Modeling"],
@@ -44,6 +36,15 @@ const Projects = () => {
       icon: <PieChart size={20} className="text-blue-600" />,
       link: "https://github.com/albionburrniku9/BigData"
     },
+    {
+      title: "Oracle SQL Examples",
+      desc: "A comprehensive collection of PLSQL and Data Analysis queries used to solve complex relational database problems.",
+      tags: ["PLSQL", "Oracle", "Data Analysis"],
+      image: "/oracle_sql.png",
+      icon: <Database size={20} className="text-blue-600" />,
+      link: "https://github.com/albionburrniku9/Oracle_SQL_examples"
+    },
+
     {
       title: "Cypress Test Scenarios",
       desc: "Test scenarios using Cypress and JavaScript to automate short test workflows and end-to-end testing.",
@@ -74,22 +75,22 @@ const Projects = () => {
           <div key={idx} className="premium-card flex flex-col group overflow-hidden bg-white">
             <div className="relative h-56 overflow-hidden">
               <div className="absolute inset-0 bg-blue-900/10 group-hover:bg-transparent transition-colors z-10"></div>
-              <img 
-                src={project.image} 
-                alt={project.title} 
+              <img
+                src={project.image}
+                alt={project.title}
                 className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm p-2 rounded-lg z-20 shadow-sm">
                 {project.icon}
               </div>
             </div>
-            
+
             <div className="p-8 flex-1 flex flex-col">
               <h3 className="text-xl font-bold text-brand-900 mb-3">{project.title}</h3>
               <p className="text-slate-500 text-sm leading-relaxed mb-6 flex-1">
                 {project.desc}
               </p>
-              
+
               <div className="flex flex-wrap gap-2 mb-8">
                 {project.tags.map((tag, tagIdx) => (
                   <span key={tagIdx} className="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-semibold rounded-full border border-slate-200">
@@ -97,7 +98,7 @@ const Projects = () => {
                   </span>
                 ))}
               </div>
-              
+
               <div className="flex flex-col gap-3">
                 {project.demoLink && (
                   <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="btn-primary w-full group-hover:shadow-lg">
